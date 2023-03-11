@@ -1,0 +1,95 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .card{
+      width: 300px;
+      background-color: hsl(216, 50%, 16%);
+      margin: auto;
+      box-shadow: 0px 20px 40px 10px;
+      border-radius: 15px;
+      padding: 25px;
+    }
+    .right{
+      float: right;
+    }
+    .img{
+      width: 100%;
+    }
+    .font_gray{
+      color:gray;
+    }
+    .Cyan{
+      color: hsl(178, 100%, 50%)
+    }
+    .Soft_Blue{
+      color: hsl(215, 51%, 70%);
+    }
+    .main_bg{
+      background-color: hsl(217, 54%, 11%);
+    }
+    .font_white{
+      color:white;
+    }
+    .hover_cyan:hover{
+      color: hsl(178, 100%, 50%)
+    }
+    .overlay{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 99%;
+      background-color: hsla(178, 100%, 50%, 0.301);
+      z-index: 1000;
+      opacity: 0;
+      transition: .5s ease;
+    }
+    .overlay>img {
+      width: 10%;
+      margin: 45% 45%;
+    }
+    .Img_Container{
+      position: relative;
+    }
+    .Img_Container:hover .overlay {
+      opacity: 1;
+    }
+    * {
+      font-size: 18px;
+      font-family: 'Outfit', sans-serif;
+    }
+    hr {
+      border: 1px solid hsl(215, 32%, 27%);
+    }
+    .foot_note{
+      height: 40px;
+    }
+    .foot_note>img{
+      height: 100%;
+      float: left;
+      border: 1px solid white;
+      border-radius: 50%;
+    }
+    .foot_note>span{
+      height: 40px;
+      display: inline-block;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      padding-left: 12px;
+    }
+
+    a:link { 
+      text-decoration: none; 
+    }
+
+    a:visited { 
+      text-decoration: none; 
+    }
+
+    a:hover { 
+      text-decoration: none; 
+    }
+
+    a:active { 
+      text-decoration: none; 
+    }
